@@ -5,16 +5,16 @@ const Nav = () => {
     <nav className='ml-[70px]'>
       <ul className='flex gap-x-[42px]'>
         <li>
-          <a href='#'>Home</a>
+          <a href='#'>Inicio</a>
         </li>
         <li>
-          <a href='#'>Classes</a>
+          <a href='#'>Proyectos</a>
         </li>
         <li>
-          <a href='#'>Features</a>
+          <a href='#'>Nosotros</a>
         </li>
         <li>
-          <a href='#'>Contact</a>
+          <a href='#'>Contacto</a>
         </li>
       </ul>
     </nav>

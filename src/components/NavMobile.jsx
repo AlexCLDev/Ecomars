@@ -19,16 +19,16 @@ const NavMobile = () => {
         } flex flex-col absolute w-full top-24 left-0 bg-white rounded-md shadow-primary space-y-6 overflow-hidden transition-all`}
       >
         <li>
-          <a href='#'>Home</a>
+          <a href='#'>Inicio</a>
         </li>
         <li>
-          <a href='#'>Classes</a>
+          <a href='#'>Proyectos</a>
         </li>
         <li>
-          <a href='#'>Features</a>
+          <a href='#'>Nosotros</a>
         </li>
         <li>
-          <a href='#'>Contact</a>
+          <a href='#'>Contacto</a>
         </li>
       </ul>
     </nav>

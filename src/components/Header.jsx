@@ -5,7 +5,7 @@ import Nav from './Nav';
 import NavMobile from './NavMobile';
 
 // import logo
-import Logo from "../assets/img/LOGO1.png";
+import Logo from "../assets/img/LOGOe.png";
 
 const Header = () => {
   const [header, setHeader] = useState(false);
@@ -25,7 +25,7 @@ const Header = () => {
       <div className='flex items-center'>
         {/* logo */}
         <a href='#'>
-          <img src={Logo} alt='' className="h-[150px] max-w-[378px] "/>
+          <img src={Logo} alt='' className="h-[100px] max-w-[378px] "/>
         </a>
         {/* nav */}
         <div className='hidden lg:flex'>

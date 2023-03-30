@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import logo
-import Logo from '../assets/img/LOGO2.png';
+import Logo from '../assets/img/LOGOe.png';
 
 // import icons
 import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='flex flex-col justify-between items-center lg:flex-row gap-y-5'>
           {/* logo */}
           <a href='#'>
-            <img src={Logo} alt='' className="h-[40px] max-w-[378px]" />
+            <img src={Logo} alt='' className="h-[120px] max-w-[378px]" />
           </a>
           {/* copyright text */}
           <p>&copy; <a href='https://alexcoronado.com' target='_blank' className='text-stroke text-blue hover:text-blue-200'>AlexCL Dev </a>2022. All rights reserved.</p>

@@ -13,7 +13,7 @@ const Cards = () => {
       data-aos-delay='800'
       data-aos-duration='1600'
     >
-      <div className='container mx-auto flex flex-col lg:flex-row gap-x-[32px]'>
+      <div className='container mx-auto flex flex-col lg:flex-row gap-x-[32px] mt-40'>
         {/* card group */}
         <div className='flex-1 flex gap-x-[15px] lg:gap-x-[32px] -mt-[38px] lg:-mt-[77px] z-10 mx-auto'>
           {/* card 1 */}
@@ -24,7 +24,7 @@ const Cards = () => {
           >
             <div className='flex items-center mb-[18px] lg:mb-[28px]'>
               <h4 className='text-lg lg:text-2xl lg:leading-7 font-bold text-heading mr-8'>
-                Make Your Own Plan For Yoga.
+                Crea una solucion a un problema.
               </h4>
               <h2 className='h2 text-stroke-2'>1</h2>
             </div>
@@ -40,7 +40,7 @@ const Cards = () => {
           >
             <div className='flex items-center mb-[18px] lg:mb-[28px]'>
               <h4 className='text-lg lg:text-2xl lg:leading-7 font-bold text-heading mr-8'>
-                Find a Yoga Mentor For You.
+                Busca ayuda para financiarla.
               </h4>
               <h2 className='h2 text-stroke-2'>2</h2>
             </div>
@@ -58,7 +58,7 @@ const Cards = () => {
           <div className='max-w-[240px]'>
             <div className='flex items-center mb-4 lg:mb-8'>
               <h4 className='text-lg lg:text-2xl lg:leading-7 font-bold text-heading mr-8'>
-                Every-Day Open Master Classes.
+                Colabora a salvar el planeta!.
               </h4>
               <h2 className='h2 text-stroke-2'>3</h2>
             </div>

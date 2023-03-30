@@ -7,14 +7,9 @@ import 'aos/dist/aos.css';
 // import components
 import Hero from './Hero';
 import Cards from './Cards';
-import Facts from './Facts';
-import Features from './Features';
-import Courses from './Courses';
-import Pricing from './Pricing';
-import Newsletter from './Newsletter';
 import Contact from './Contact';
 import Footer from './Footer';
-import { Booking } from './Booking';
+import { NovalRivers } from './NovalRivers';
 export const Home = () => {
   Aos.init({
     duration: 1800,
@@ -25,11 +20,7 @@ export const Home = () => {
       
       <Hero />
       <Cards />
-      <Facts />
-      <Features />
-      <Courses />
-      <Pricing />
-      <Newsletter />
+      <NovalRivers/>
       <Contact />
       <Footer />
     </div>

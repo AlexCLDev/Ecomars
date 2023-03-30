@@ -55,11 +55,10 @@ const Contact = () => {
             data-aos-offset='500'
           >
             <h2 className='h2 mb-3 lg:mb-7'>
-              Get in Touch With Us for Yoga Course.
+              Ponte en contacto con nosotros!
             </h2>
             <p className='mb-7 lg:mb-0'>
-              Get in touch with us for any kind of help. We are here to give you
-              the best and also here to help you to find your yoga course.
+              Ponte en contacto con nosotros para financiarnos y ayudarnos a crear nuevas soluciones.
             </p>
           </div>
           <form
@@ -72,32 +71,32 @@ const Contact = () => {
           >
             <input
               className='form-control'
-              placeholder='First name'
+              placeholder='Primer Nombre'
               type='text'
               name='user_firstname'
               required
             />
             <input
               className='form-control'
-              placeholder='Last name'
+              placeholder='Segundo Nombre'
               type='text'
               name='user_lastname'
               required
             />
             <input
               className='form-control'
-              placeholder='Email address'
+              placeholder='Email'
               type='email'
               name='user_email'
               required
             />
             <textarea
               className='form-control py-5 h-[165px] resize-none'
-              placeholder='Message'
+              placeholder='Mensaje'
               name='user_message'
             ></textarea>
             <button className='btn btn-lg bg-blue-100 hover:bg-blue self-start' type='submit'>
-              Send message
+              Enviar Mensaje
             </button>
             <p style={{ color: emailTextColor }}>{emailMesssage}</p>
           </form>
